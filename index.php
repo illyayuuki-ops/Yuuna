@@ -11,7 +11,7 @@
 
     <div class="container py-5 text-center">
         <div class="card shadow p-4">
-            <h1 class="text-primary fw-bold">Welcome to Yuuna!</h1>
+            <h1 class="text-primary fw-bold">Welcome to J.R.G.P!</h1>
             <p class="lead text-secondary">Bootstrap 5 is successfully installed locally via PowerShell.</p>
             <button class="btn btn-success btn-lg">Offline Ready & Styled!</button>
         </div>
