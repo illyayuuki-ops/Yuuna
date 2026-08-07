@@ -299,3 +299,125 @@ body {
     .section-title { font-size: 1.9rem; }
     .stats-panel { padding: 24px; }
 }
+/* ===== PROJECTS SECTION ===== */
+.projects-section {
+    padding: 120px 0;
+    background: #06070c;
+}
+
+.section-subtitle {
+    color: #64748b;
+    font-size: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.project-card {
+    background: linear-gradient(160deg, rgba(15,23,42,0.5), rgba(6,8,16,0.5));
+    border: 1px solid rgba(56,189,248,0.15);
+    border-radius: 12px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease;
+}
+.project-card:hover {
+    border-color: rgba(56,189,248,0.5);
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(56,189,248,0.15);
+}
+
+.project-image-frame {
+    position: relative;
+    aspect-ratio: 16/10;
+    background: linear-gradient(160deg, #0f172a, #060810);
+    margin: 20px 20px 0;
+    border-radius: 8px;
+    border: 1px solid rgba(56,189,248,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.project-image-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.project-placeholder {
+    color: #475569;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.project-image-frame .corner-bracket {
+    width: 20px;
+    height: 20px;
+    border-width: 2px;
+}
+.project-image-frame .corner-tl { top: 8px; left: 8px; }
+.project-image-frame .corner-tr { top: 8px; right: 8px; }
+.project-image-frame .corner-bl { bottom: 8px; left: 8px; }
+.project-image-frame .corner-br { bottom: 8px; right: 8px; }
+
+.project-info {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.project-tag {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+.project-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #f1f5f9;
+    margin-bottom: 10px;
+}
+
+.project-desc {
+    color: #94a3b8;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 18px;
+    flex-grow: 1;
+}
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+.tech-tag {
+    font-size: 11px;
+    font-weight: 600;
+    color: #60a5fa;
+    background: rgba(56,189,248,0.08);
+    border: 1px solid rgba(56,189,248,0.25);
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+.project-link {
+    color: #38bdf8;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    transition: 0.3s;
+}
+.project-link:hover {
+    text-shadow: 0 0 10px rgba(56,189,248,0.6);
+}
